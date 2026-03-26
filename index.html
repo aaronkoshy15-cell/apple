@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M5 Pro and M5 Max - Apple</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
+</head>
+<body class="dark-mode">
+    <nav id="navbar">
+        <div class="container container-nav">
+            <div class="nav-left">
+                <a href="#" class="logo">
+                    <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.14 11.23C16.13 8.35 18.24 7.02 18.34 6.96C17.15 5.03 15.3 4.77 14.67 4.75C13.12 4.58 11.59 5.79 10.8 5.79C10.01 5.79 8.78 4.78 7.48 4.81C5.78 4.84 4.19 5.92 3.32 7.61C1.52 11.02 2.87 16.03 4.61 18.84C5.46 20.21 6.47 21.75 7.8 21.7C9.07 21.65 9.55 20.79 11.1 20.79C12.63 20.79 13.08 21.7 14.43 21.67C15.8 21.65 16.68 20.26 17.52 18.9C18.49 17.33 18.89 15.82 18.92 15.74C18.89 15.73 15.85 14.44 16.14 11.23ZM13.43 3.14C14.13 2.2 14.6 0.89 14.47 0C13.56 0.04 12.45 0.67 11.8 1.51C11.22 2.26 10.71 3.59 10.84 4.46C11.85 4.55 12.87 3.91 13.43 3.14Z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#architecture">Architecture</a></li>
+                    <li><a href="#m5pro">M5 Pro</a></li>
+                    <li><a href="#m5max">M5 Max</a></li>
+                    <li><a href="#specs">Tech Specs</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="btn btn-primary btn-sm">Pre-order</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-scroll-container">
+        <div class="sticky-wrapper">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <div class="feature-text active" data-frame-start="0" data-frame-end="40">
+                    <h1 class="hero-headline">M5 Pro and M5 Max.</h1>
+                    <p class="hero-subheadline">The next generation of Apple silicon is here.</p>
+                </div>
+                <div class="feature-text" data-frame-start="50" data-frame-end="90">
+                    <h2 class="hero-headline">Fusion Architecture.</h2>
+                    <p class="hero-subheadline">Two dies. One monumental leap in performance.</p>
+                </div>
+                <div class="feature-text" data-frame-start="100" data-frame-end="140">
+                    <h2 class="hero-headline">18-core CPU.</h2>
+                    <p class="hero-subheadline">The world's fastest CPU cores in a personal computer.</p>
+                </div>
+                <div class="feature-text" data-frame-start="150" data-frame-end="190">
+                    <h2 class="hero-headline">Next-gen GPU.</h2>
+                    <p class="hero-subheadline">Massive AI compute for the most demanding workflows.</p>
+                </div>
+                <div class="feature-text" data-frame-start="200" data-frame-end="240">
+                    <h2 class="hero-headline">Supercharge everything.</h2>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary">Pre-order Now</a>
+                        <a href="#" class="btn btn-secondary">Compare Models</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="architecture" class="section reveal-on-scroll">
+        <div class="container grid grid-2">
+            <div class="text-content">
+                <span class="eyebrow">Fusion Architecture</span>
+                <h2 class="section-headline">Two dies. One monumental leap.</h2>
+                <p class="section-body">The state-of-the-art Fusion Architecture connects two third-generation 3-nanometer dies into a single SoC using advanced packaging. This integrates a powerful CPU, scalable GPU, Media Engine, unified memory controller, Neural Engine, and Thunderbolt 5 capabilities into one incredibly efficient powerhouse.</p>
+            </div>
+            <div class="visual-content">
+                <img src="assets/fusion-architecture.png" alt="Fusion Architecture Diagram" class="arch-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="cpu" class="section bg-card reveal-on-scroll">
+        <div class="container text-center">
+            <h2 class="section-headline">The World's Fastest CPU Cores</h2>
+            <p class="section-body max-w-800 mx-auto">Featuring a new 18-core CPU architecture. 6 industry-leading super cores deliver the world’s fastest single-threaded performance, alongside 12 all-new performance cores optimized for power-efficient, multithreaded workloads.</p>
+            
+            <div class="stats-row">
+                <div class="stat-item">
+                    <span class="stat-value">18-Core</span>
+                    <span class="stat-label">CPU (6 Super, 12 Performance)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">2.5x</span>
+                    <span class="stat-label">higher multithreaded performance</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">4x</span>
+                    <span class="stat-label">peak GPU compute for AI</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comparison" class="section">
+        <div class="container">
+            <h2 class="section-headline text-center mb-80 reveal-on-scroll">Choose Your Powerhouse.</h2>
+            <div class="grid grid-2 gap-40 reveal-on-scroll">
+                <div class="comparison-card">
+                    <div class="card-header">
+                        <h3 class="chip-name">M5 Pro</h3>
+                        <p class="chip-target">Data modelers, sound designers, STEM.</p>
+                    </div>
+                    <ul class="chip-specs">
+                        <li><strong>Up to 18-core</strong> CPU</li>
+                        <li><strong>Up to 20-core</strong> GPU</li>
+                        <li><strong>Up to 64GB</strong> Unified Memory</li>
+                        <li><strong>307GB/s</strong> bandwidth</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="highlight">20% higher graphics performance than M4 Pro.</span>
+                    </div>
+                </div>
+
+                <div class="comparison-card featured">
+                    <div class="card-header">
+                        <h3 class="chip-name">M5 Max</h3>
+                        <p class="chip-target">3D animators, app developers, AI researchers.</p>
+                    </div>
+                    <ul class="chip-specs">
+                        <li><strong>18-core</strong> CPU</li>
+                        <li><strong>Up to 40-core</strong> GPU</li>
+                        <li><strong>Up to 128GB</strong> Unified Memory</li>
+                        <li><strong>614GB/s</strong> bandwidth</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="highlight">30% graphics uplift for ray tracing apps.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advanced-tech" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-headline text-center mb-60 reveal-on-scroll">Innovation in every block.</h2>
+            <div class="bento-grid">
+                <div class="bento-item reveal-on-scroll">
+                    <h4>16-core Neural Engine</h4>
+                    <p>Faster, high-bandwidth connection for Apple Intelligence.</p>
+                </div>
+                <div class="bento-item reveal-on-scroll">
+                    <h4>Latest Media Engine</h4>
+                    <p>Hardware-accelerated H.264, HEVC, AV1 decode, and ProRes.</p>
+                </div>
+                <div class="bento-item reveal-on-scroll">
+                    <h4>Memory Integrity Enforcement</h4>
+                    <p>Industry-first, always-on memory safety protection.</p>
+                </div>
+                <div class="bento-item reveal-on-scroll">
+                    <h4>Thunderbolt 5</h4>
+                    <p>Dedicated custom controllers for the industry’s most capable implementation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="environment" class="section reveal-on-scroll">
+        <div class="container text-center">
+            <div class="env-icon">
+                <img src="assets/apple-2030.png" alt="Apple 2030 Logo" class="icon-img">
+            </div>
+            <h2 class="section-headline">Power-efficient. Planet-conscious.</h2>
+            <p class="section-body max-w-800 mx-auto">Designed to meet high standards for energy efficiency, reducing total lifetime energy consumption and driving toward Apple's ambitious goal to be 100% carbon neutral by the end of the decade.</p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <p>Available for pre-order starting tomorrow. Availability begins Wednesday, March 11.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Sales Policy</a>
+                <a href="#">Legal</a>
+                <a href="#">Site Map</a>
+            </div>
+            <p class="copyright">&copy; 2026 Apple Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
